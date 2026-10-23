@@ -1,0 +1,243 @@
+.container {
+    width: 1140px;
+    margin: 0px auto;
+    flex-wrap: wrap;
+}
+.col-2 {
+    width: auto;
+}
+.hero-proflie-info {
+    width: 700px;
+    text-align: left;
+}
+.col-3 {
+    width: 550px;
+}
+.recent-post-box {
+    width: 550px;
+}
+.col-feature-1 {
+    width: 260px;
+    height: 180px;
+}
+.col-feature-2 {
+    width: 856px;
+}
+.feature-direction {
+    flex-direction: row;
+}
+.featured-textee {
+    text-align: left;
+}
+.recent-post-header {
+    justify-content: space-between;
+}
+.recent-post-header .view-all-link {
+    display: inline;
+}
+@media (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .hero {
+        min-height: 480px;
+    }
+    .hero-proflie-info {
+        width: 580px;
+    }
+    .hero-proflie-info h1 {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    .nik-png,
+    .proflie-img {
+        width: 250px;
+        height: 250px;
+        border-radius: 250px;
+    }
+    .nik-png-wrap,
+    .proflie-img-wrap {
+        border-radius: 270px;
+    }
+    .col-3 {
+        width: 465px;
+    }
+    .recent-post-box {
+        width: 465px;
+    }
+    .col-feature-1 {
+        width: 250px;
+        height: 180px;
+    }
+    .col-feature-2 {
+        width: 686px;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .hero {
+        min-height: auto;
+        padding: 48px 0px;
+    }
+    .hero-proflie-info {
+        width: 440px;
+    }
+    .hero-proflie-info h1 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .col-2 {
+        width: auto;
+    }
+    .nik-png,
+    .proflie-img {
+        width: 240px;
+        height: 240px;
+        border-radius: 240px;
+    }
+    .nik-png-wrap,
+    .proflie-img-wrap {
+        border-radius: 260px;
+    }
+    .col-3 {
+        width: 340px;
+    }
+    .recent-post-box {
+        width: 340px;
+    }
+    .col-feature-1 {
+        width: 240px;
+        height: 160px;
+    }
+    .col-feature-2 {
+        width: 456px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0px;
+        right: -260px;
+        width: 220px;
+        padding: 30px 20px;
+        gap: 18px;
+        justify-content: flex-start;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        transition: right 0.3s ease;
+        z-index: 1000;
+    }
+    #menu:checked ~ .nav-links {
+        right: 0px;
+    }
+    .hero {
+        flex-direction: column-reverse;
+        padding: 24px 0px;
+        text-align: center;
+    }
+    .hero-proflie-info {
+        width: 540px;
+        text-align: center;
+    }
+    .hero-proflie-info h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .col-2 {
+        width: 540px;
+    }
+    .nik-png,
+    .proflie-img {
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+    }
+    .nik-png-wrap,
+    .proflie-img-wrap {
+        border-radius: 320px;
+    }
+    .recent-post-header {
+        justify-content: center;
+    }
+    .recent-post-header .view-all-link {
+        display: none;
+    }
+    .recent-post-cards {
+        flex-direction: column;
+        gap: 18px;
+    }
+    .col-3 {
+        width: 540px;
+    }
+    .recent-post-box {
+        width: 540px;
+    }
+    .feature-direction {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    .col-feature-1 {
+        width: 540px;
+        height: 270px;
+    }
+    .col-feature-2 {
+        width: 540px;
+    }
+    .featured-textee {
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 340px;
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .col-2 {
+        width: 340px;
+        max-width: 100%;
+    }
+    .col-3 {
+        width: 340px;
+        max-width: 100%;
+    }
+    .hero-proflie-info {
+        width: 340px;
+        max-width: 100%;
+    }
+    .nik-png,
+    .proflie-img {
+        width: 250px;
+        height: 250px;
+        border-radius: 250px;
+    }
+    .nik-png-wrap,
+    .proflie-img-wrap {
+        border-radius: 270px;
+    }
+    .recent-post-box {
+        width: 340px;
+        max-width: 100%;
+    }
+    .col-feature-1 {
+        width: 340px;
+        max-width: 100%;
+        height: 210px;
+    }
+    .col-feature-2 {
+        width: 340px;
+        max-width: 100%;
+    }
+}
